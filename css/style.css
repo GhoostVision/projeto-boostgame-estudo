@@ -31,7 +31,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
   margin: 0;
 }
 .box-navegacao-text a, .box-navegacao-icons a {
@@ -45,6 +44,14 @@ body {
 .btn-pesquisa-nav {
   color: white;
   border: none;
+}
+
+.imagem-carousel {
+  height: 400px;
+}
+
+.promocoes-home {
+  padding: 20px 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
