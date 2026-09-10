@@ -1,0 +1,10 @@
+@use "../utilites/color.scss" as *;
+
+.button-grande{
+    padding: 8px;
+    border: none;
+    background-color:$cor-principal;
+    color: $cor-texto;
+    border-radius: 10px;
+    width: 60%;
+}

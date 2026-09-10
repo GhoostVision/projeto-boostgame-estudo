@@ -1,0 +1,16 @@
+@use "../utilites/color.scss" as *;
+
+.home-box{
+    height: 300px;
+    margin: 10px;
+    background-image: url(../cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .itens{
+         display: flex;
+         flex-direction: column;
+    }
+   
+}

@@ -46,12 +46,26 @@ body {
   border: none;
 }
 
-.imagem-carousel {
-  height: 400px;
+.home-box {
+  height: 300px;
+  margin: 10px;
+  background-image: url(../cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-box .itens {
+  display: flex;
+  flex-direction: column;
 }
 
-.promocoes-home {
-  padding: 20px 50px;
+.button-grande {
+  padding: 8px;
+  border: none;
+  background-color: #0F092F;
+  color: white;
+  border-radius: 10px;
+  width: 60%;
 }
 
 /*# sourceMappingURL=style.css.map */
