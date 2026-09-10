@@ -1,0 +1,24 @@
+OQUE E UM FRAMEWORK
+
+O framework da elementos prontos para usar, poupando velocidade na hora codar, a diferença de bibiotecla e framework, framework já vem tudo pronto como se fosse uma cesta básica, já a biblioteca e como se você fosse ter que comprar os itens da cesta tudo separado
+
+BOSTRAP GRID
+
+a glid serve para organizar os elementos da pagina em colunas, assim facilitando para criar layout responsivo, como se fosse caixas
+
+class="container" "container" não ocupa todo espaço da tela "container-fluid" ocupa 100% da tela
+ class="row"
+  class="col" col-1" aqui você pode escolhe quantas colunas você quer que ele ocupe, vai de 1 a 12 "1 2 3 4 5 6 7 8 9 10 11 12"
+
+DICA: "col-6 col-md-6 col-lg-3" esses col conseguem controlar os tamanhos dos elementos por tela, muito importante para cards e tals
+      "row g-1" serve para dar espaço entre os elementos indo 1 ao 5 de espacamento
+      "row m-1" serve para dar uma margin entre os elementos de 1 ao 5
+
+BOSTRAP IMAGEM
+
+img-fluid: deixa a imagem no tamanho da coluna automaticamente
+img-rounded mx-auto d-block deixa centralizado no meio e fica com  a borda redonda, verificar documentos do bostrap 
+
+!VERIFICAR A DOCUMENTACAO DO BOSTRAP!
+
+bostrap ja vem com icones para ser utilizado

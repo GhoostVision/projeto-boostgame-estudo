@@ -1,0 +1,1 @@
+ sass --watch ./sass/style.scss:./css/style.css = Para conseguir lincar o arquivo com o outro
