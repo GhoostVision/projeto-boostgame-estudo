@@ -1,0 +1,31 @@
+Workspace - Mundo
+
+camera e a camera do jogo
+
+PLAYERS
+
+players serve para gerenciar os players
+
+PRINT() - Ele printa a informacao, existe dois tipo de dados, texto e numeros, para verrificar usar "typeof()"
+
+EXPLECOES NUMERICA - + para somar, - para subtrair, * para multiplicacao, / para divisao, // para divisao mas ele nao considera os numeros quebrados. % calcula o resto da divisao, += vai receber o valor e entregar ele moedas30 += moedas_ganha60 resultado moedas 90
+
+VARIAVEIS - Para criar uma variavel "local nome = armazenar" exmplo pratico print(`Bem vindo {nome}, voce tem {moeda}`), tem como atualizar uma variavel usando ela de comeco, moedas = "moedas - moedas_perdidas"
+
+local nome = "jogador" - nome do jogador
+local moedas = 30 - numero de moedas
+print(`Bem-vindo {nome}, voce tem o saldo de {moedas} moedas`) - print falando o nome dele e o saldo
+
+local moedas_perdida = 30 - numero de moedas
+
+local moedas_totais = moedas - moedas_perdida - pegar moedas e subtrair pela a moedas perdidas
+
+print(`Opss... seu saldo foi roubado {nome}, agora seu saldo e de {moedas_totais} moedas`) print falando o nome e quantas moedas perdeu
+
+CONDICIONAIS - Para usar se usa > por exemplo local nivel = 9 print(nivel > 5) no caso esta pergutando se o nivel e maior que 5, vai retornar true, == pergunta se o numero ou o texto e igual, >= aqui ele pergunta se o numero e igual ou menor que aquele valor, if e else
+
+if moedas >= machado and aura >= 10 then aqui verifica se a moedas da para comprar o machado, e o and pergunta se a aura tambem permite
+	print(`voce nao pode comprar beta`) printar se pode ser comprado
+else
+	print("Voce e pobre ferrado e nunca poderar comprar ") printar que nao pode ser comprado
+end
