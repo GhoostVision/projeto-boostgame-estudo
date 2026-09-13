@@ -36,5 +36,24 @@
 .card-categoria-genero{
     background-color: azure;
     border-radius: 10px;
+    height: 130px;
+
+    h3{
+        padding: 5px 20px;
+    }
+
+    p{
+        margin: 0 20px;
+    }
+
+    button{
+        margin: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        width: 25%;
+        background: $cor-principal;
+        color: white;
+    }
 
 }

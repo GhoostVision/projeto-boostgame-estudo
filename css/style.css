@@ -111,6 +111,22 @@ body {
 .card-categoria-genero {
   background-color: azure;
   border-radius: 10px;
+  height: 130px;
+}
+.card-categoria-genero h3 {
+  padding: 5px 20px;
+}
+.card-categoria-genero p {
+  margin: 0 20px;
+}
+.card-categoria-genero button {
+  margin: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 25%;
+  background: #0F092F;
+  color: white;
 }
 
 .lancamentos, .promocoes {
