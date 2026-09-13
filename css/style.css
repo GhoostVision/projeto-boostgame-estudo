@@ -86,6 +86,12 @@ body {
   border-radius: 10px;
   margin: 1px;
 }
+.cards-jogos .box-promocao-card {
+  padding: 2px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
 .cards-jogos img {
   background-image: url(../cyberpunk.jpg);
   background-size: cover;
@@ -107,10 +113,10 @@ body {
   border-radius: 10px;
 }
 
-.lancamentos {
+.lancamentos, .promocoes {
   margin: 40px 0;
 }
-.lancamentos .titulo-pages {
+.lancamentos .titulo-pages, .promocoes .titulo-pages {
   margin: 30px 25px;
   color: white;
 }
