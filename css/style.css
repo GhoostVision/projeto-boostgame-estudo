@@ -82,14 +82,41 @@ body {
 .cards-jogos {
   color: white;
   background-color: #0F092F;
-  height: 200px;
+  height: 230px;
   border-radius: 10px;
   margin: 1px;
 }
 .cards-jogos img {
-  background-image: url(../cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
+  background-image: url(../cyberpunk.jpg);
   background-size: cover;
-  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 140px;
+  border-radius: 10px;
+}
+.cards-jogos h2 {
+  margin: 10px 5px;
+}
+.cards-jogos span {
+  margin: 0 5px;
+}
+
+.card-categoria-genero {
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.lancamentos {
+  margin: 40px 0;
+}
+.lancamentos .titulo-pages {
+  margin: 30px 25px;
+  color: white;
+}
+
+.box-categoria-genero {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
