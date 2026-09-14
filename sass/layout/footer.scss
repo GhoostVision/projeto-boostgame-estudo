@@ -1,0 +1,44 @@
+@use "../utilites/color.scss" as *;
+
+footer{
+    background-color: $cor-principal;
+    width: 100%;
+    color: white;
+    height: 215px;
+
+    .links-footer{
+        display: flex;
+        font-size: 15px;
+        margin: 20px 0 0 0;
+        
+        a{
+            color: $cor-texto;
+        }
+
+        h3{
+            font-size: 18px;
+            padding: 0 0 10px 0;
+        }
+    }
+
+    .redes-sociais-footer{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0 0;
+
+        .icons-redes-sociais-footer{
+            display: flex;
+
+            a{
+                background: $cor-secunadria;
+                padding: 15px;
+                border-radius: 50%;
+                margin: 0 10px;
+                color: $cor-texto;
+                
+            }
+        }
+    }
+}
