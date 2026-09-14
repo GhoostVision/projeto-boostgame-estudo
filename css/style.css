@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background-color: #1C1545;
 }
@@ -144,6 +148,37 @@ body {
 footer {
   background-color: #0F092F;
   width: 100%;
+  color: white;
+  height: 215px;
+}
+footer .links-footer {
+  display: flex;
+  font-size: 15px;
+  margin: 20px 0 0 0;
+}
+footer .links-footer a {
+  color: white;
+}
+footer .links-footer h3 {
+  font-size: 18px;
+  padding: 0 0 10px 0;
+}
+footer .redes-sociais-footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+}
+footer .redes-sociais-footer .icons-redes-sociais-footer {
+  display: flex;
+}
+footer .redes-sociais-footer .icons-redes-sociais-footer a {
+  background: #1C1545;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 0 10px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
