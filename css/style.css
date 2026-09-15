@@ -54,7 +54,7 @@ body {
 .home-box {
   height: 320px;
   margin: 10px;
-  background-image: url(../cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
+  background-image: url(../imagens/cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,7 +103,6 @@ body {
   border-radius: 5px;
 }
 .cards-jogos img {
-  background-image: url(../cyberpunk.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -164,6 +163,9 @@ footer .links-footer {
 }
 footer .links-footer a {
   color: white;
+}
+footer .links-footer a:hover {
+  color: blue;
 }
 footer .links-footer h3 {
   font-size: 18px;

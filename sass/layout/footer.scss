@@ -13,6 +13,10 @@ footer{
         
         a{
             color: $cor-texto;
+
+            &:hover{
+                color: blue;
+            }
         }
 
         h3{
