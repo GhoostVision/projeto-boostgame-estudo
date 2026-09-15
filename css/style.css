@@ -6,6 +6,7 @@ header {
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -38,7 +39,7 @@ body {
   margin: 0;
 }
 .box-navegacao-text a, .box-navegacao-icons a {
-  margin: 0 10px;
+  padding: 0 10px;
   color: white;
 }
 .box-navegacao-text .icons-nav, .box-navegacao-icons .icons-nav {
@@ -51,9 +52,9 @@ body {
 }
 
 .home-box {
-  height: 300px;
+  height: 320px;
   margin: 10px;
-  background-image: url(../cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
+  background-image: url(../imagens/cyberpunk2077-redimensionado-para-1920x800-redimensionado-para-1920x400.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,6 +62,10 @@ body {
 .home-box .itens {
   display: flex;
   flex-direction: column;
+}
+.home-box .espaco-preco-home span {
+  margin: 0 5px;
+  font-weight: 600;
 }
 
 .button-grande {
@@ -73,10 +78,11 @@ body {
 }
 
 .quadrado-branco {
-  padding: 3px;
-  border: 1px solid rgb(214, 214, 214);
-  border-radius: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
   background: white;
+  font-weight: 800;
+  font-size: 15px;
 }
 
 .espaco-preco-home {
@@ -97,7 +103,6 @@ body {
   border-radius: 5px;
 }
 .cards-jogos img {
-  background-image: url(../cyberpunk.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,6 +164,9 @@ footer .links-footer {
 footer .links-footer a {
   color: white;
 }
+footer .links-footer a:hover {
+  color: blue;
+}
 footer .links-footer h3 {
   font-size: 18px;
   padding: 0 0 10px 0;
@@ -179,6 +187,51 @@ footer .redes-sociais-footer .icons-redes-sociais-footer a {
   border-radius: 50%;
   margin: 0 10px;
   color: white;
+}
+
+.box-navegacao-text a {
+  transition: 0.5s ease;
+}
+.box-navegacao-text a:hover {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+.box-navegacao-icons .btn-pesquisa-nav {
+  transition: 0.5s;
+}
+.box-navegacao-icons .btn-pesquisa-nav:hover {
+  font-size: 18px;
+  background: white;
+  color: #0F092F;
+}
+.box-navegacao-icons .icons-nav {
+  transition: 0.8s;
+}
+.box-navegacao-icons .icons-nav:hover {
+  font-size: 18px;
+  background: white;
+  color: #0F092F;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.button-grande {
+  transition: 0.8s;
+}
+.button-grande:hover {
+  background-color: #1C1545;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 5px black;
+  text-shadow: 2px 2px 10px rgb(135, 135, 135);
+}
+
+.cards-jogos {
+  transition: 0.8s;
+}
+.cards-jogos:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgb(7, 7, 133);
 }
 
 /*# sourceMappingURL=style.css.map */
