@@ -9,7 +9,7 @@ footer{
     .links-footer{
         display: flex;
         font-size: 15px;
-        margin: 20px 0 0 0;
+        margin: 25px 0 0 0;
         
         a{
             color: $cor-texto;
@@ -44,5 +44,26 @@ footer{
                 
             }
         }
+    }
+
+    .formas-pagamentos-footer{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin: 20px 0 0 0;
+
+       .caixa-pagamentos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+
+         img{
+            padding: 10px;
+            background: white;
+            margin: 0 20px;
+         }
+       }
     }
 }

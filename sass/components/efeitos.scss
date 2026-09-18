@@ -1,0 +1,6 @@
+@use "../utilites/color.scss" as *;
+
+.titulo-efeito{
+    color:$cor-efeito;
+    text-shadow: 3px 3px 10px blue;
+}
