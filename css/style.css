@@ -111,16 +111,22 @@ body {
   border-radius: 10px;
 }
 .cards-jogos h2 {
-  margin: 10px 5px;
+  margin: 5px 5px;
+  font-size: 18px;
 }
 .cards-jogos span {
   margin: 0 5px;
+  font-size: 15px;
 }
 
 .card-categoria-genero {
-  background-color: azure;
   border-radius: 10px;
   height: 130px;
+  background-image: url(../imagens/categoria.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
 .card-categoria-genero h3 {
   padding: 5px 20px;
@@ -135,7 +141,6 @@ body {
   padding: 5px;
   width: 25%;
   background: #0F092F;
-  color: white;
 }
 
 .lancamentos, .promocoes {
@@ -250,6 +255,11 @@ footer .formas-pagamentos-footer .caixa-pagamentos img {
 .cards-jogos:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 5px rgb(7, 7, 133);
+}
+
+.titulo-efeito {
+  color: blue;
+  text-shadow: 3px 3px 10px blue;
 }
 
 /*# sourceMappingURL=style.css.map */

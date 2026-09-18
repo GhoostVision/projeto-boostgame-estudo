@@ -25,18 +25,24 @@
     }
 
     h2{
-        margin: 10px 5px;
+        margin: 5px 5px;
+        font-size: 18px;
     }
 
     span{
         margin: 0 5px;
+        font-size: 15px;
     }
 }
 
 .card-categoria-genero{
-    background-color: azure;
     border-radius: 10px;
     height: 130px;
+    background-image: url(../imagens/categoria.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 
     h3{
         padding: 5px 20px;
@@ -53,7 +59,7 @@
         padding: 5px;
         width: 25%;
         background: $cor-principal;
-        color: white;
+        
     }
 
 }
