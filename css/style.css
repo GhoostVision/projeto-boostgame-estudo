@@ -159,7 +159,7 @@ footer {
 footer .links-footer {
   display: flex;
   font-size: 15px;
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
 }
 footer .links-footer a {
   color: white;
@@ -187,6 +187,24 @@ footer .redes-sociais-footer .icons-redes-sociais-footer a {
   border-radius: 50%;
   margin: 0 10px;
   color: white;
+}
+footer .formas-pagamentos-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+}
+footer .formas-pagamentos-footer .caixa-pagamentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+footer .formas-pagamentos-footer .caixa-pagamentos img {
+  padding: 10px;
+  background: white;
+  margin: 0 20px;
 }
 
 .box-navegacao-text a {
