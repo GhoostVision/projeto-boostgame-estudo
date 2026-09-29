@@ -77,6 +77,18 @@ body {
   width: 60%;
 }
 
+.button-pequeno {
+  background: #1C1545;
+  color: white;
+  width: 90%;
+  height: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 10px;
+}
+
 .quadrado-branco {
   padding: 5px 10px;
   border-radius: 10px;
@@ -92,7 +104,7 @@ body {
 .cards-jogos {
   color: white;
   background-color: #0F092F;
-  height: 230px;
+  height: 260px;
   border-radius: 10px;
   margin: 1px;
 }
@@ -111,12 +123,14 @@ body {
   border-radius: 10px;
 }
 .cards-jogos h2 {
-  margin: 5px 5px;
+  margin: 10px 10px;
   font-size: 18px;
+  font-weight: 800;
 }
 .cards-jogos span {
-  margin: 0 5px;
+  margin: 0 10px;
   font-size: 15px;
+  font-weight: 400;
 }
 
 .card-categoria-genero {

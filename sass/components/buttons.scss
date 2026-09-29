@@ -8,3 +8,15 @@
     border-radius: 10px;
     width: 60%;
 }
+
+.button-pequeno{
+    background:$cor-secunadria ;
+    color: $cor-texto;
+    width: 90%;
+    height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin:10px 10px;
+}

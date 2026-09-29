@@ -3,7 +3,7 @@
 .cards-jogos{
     color:$cor-texto;
     background-color: $cor-principal;
-    height: 230px;
+    height: 260px;
     border-radius: 10px;
     margin: 1px;
 
@@ -25,13 +25,15 @@
     }
 
     h2{
-        margin: 5px 5px;
+        margin: 10px 10px;
         font-size: 18px;
+        font-weight: 800;
     }
 
     span{
-        margin: 0 5px;
+        margin: 0 10px;
         font-size: 15px;
+        font-weight: 400;
     }
 }
 
