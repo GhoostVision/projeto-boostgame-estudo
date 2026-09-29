@@ -7,13 +7,21 @@
     border-radius: 10px;
     margin: 1px;
 
+   .imagem-promocao{
+        position: relative;
+    }
+
     .box-promocao-card{
-        padding: 2px;
+        padding: 4px;
         background: white;
         color: black;
         border-radius: 5px;
-        
+        position: absolute;
+        font-weight: 800;
+        bottom: 105px;
+        left: 210px;   
     }
+    
     
     img{
        background-size: cover;

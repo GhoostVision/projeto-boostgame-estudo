@@ -108,11 +108,18 @@ body {
   border-radius: 10px;
   margin: 1px;
 }
+.cards-jogos .imagem-promocao {
+  position: relative;
+}
 .cards-jogos .box-promocao-card {
-  padding: 2px;
+  padding: 4px;
   background: white;
   color: black;
   border-radius: 5px;
+  position: absolute;
+  font-weight: 800;
+  bottom: 105px;
+  left: 210px;
 }
 .cards-jogos img {
   background-size: cover;
@@ -228,10 +235,12 @@ footer .formas-pagamentos-footer .caixa-pagamentos img {
 
 .box-navegacao-text a {
   transition: 0.5s ease;
+  display: inline-block;
 }
 .box-navegacao-text a:hover {
   font-size: 18px;
   padding: 0 6px;
+  transform: translateY(-3px);
 }
 
 .box-navegacao-icons .btn-pesquisa-nav {
@@ -257,7 +266,7 @@ footer .formas-pagamentos-footer .caixa-pagamentos img {
   transition: 0.8s;
 }
 .button-grande:hover {
-  background-color: #1C1545;
+  background-color: #251D58;
   transform: scale(1.05);
   box-shadow: 3px 3px 5px black;
   text-shadow: 2px 2px 10px rgb(135, 135, 135);
@@ -269,6 +278,14 @@ footer .formas-pagamentos-footer .caixa-pagamentos img {
 .cards-jogos:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 5px rgb(7, 7, 133);
+}
+
+.button-pequeno {
+  transition: 0.5s;
+}
+.button-pequeno:hover {
+  background: #251D58;
+  text-shadow: 2px 2px 10px rgb(135, 135, 135);
 }
 
 .titulo-efeito {
