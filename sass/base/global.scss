@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
 }
 
 a {
@@ -16,4 +15,6 @@ ul{
 
 body{
     background-color: $cor-secunadria;
+     font-family: "Inter", sans-serif;
+     background: linear-gradient(to left,   135deg, $cor-principal 0%, $cor-secunadria 55%, white 100%);
 }
