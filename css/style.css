@@ -6,7 +6,6 @@ header {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -19,6 +18,8 @@ ul {
 
 body {
   background-color: #1C1545;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to left, 135deg, #0F092F 0%, #1C1545 55%, white 100%);
 }
 
 .box-titulo-principal {
@@ -62,6 +63,9 @@ body {
 .home-box .itens {
   display: flex;
   flex-direction: column;
+}
+.home-box .itens h2 {
+  font-weight: 800;
 }
 .home-box .espaco-preco-home span {
   margin: 0 5px;
@@ -135,9 +139,12 @@ body {
   font-weight: 800;
 }
 .cards-jogos span {
-  margin: 0 10px;
+  margin: 0 0 0 10px;
   font-size: 15px;
   font-weight: 400;
+}
+.cards-jogos span s {
+  color: rgb(208, 206, 206);
 }
 
 .card-categoria-genero {
@@ -170,6 +177,9 @@ body {
 .lancamentos .titulo-pages, .promocoes .titulo-pages {
   margin: 30px 25px;
   color: white;
+}
+.lancamentos .titulo-pages h3, .promocoes .titulo-pages h3 {
+  font-weight: 800;
 }
 
 .box-categoria-genero {
@@ -276,8 +286,7 @@ footer .formas-pagamentos-footer .caixa-pagamentos img {
   transition: 0.8s;
 }
 .cards-jogos:hover {
-  transform: scale(1.1);
-  box-shadow: 5px 5px 5px rgb(7, 7, 133);
+  transform: scale(1.08);
 }
 
 .button-pequeno {
@@ -286,6 +295,13 @@ footer .formas-pagamentos-footer .caixa-pagamentos img {
 .button-pequeno:hover {
   background: #251D58;
   text-shadow: 2px 2px 10px rgb(135, 135, 135);
+}
+
+.card-categoria-genero {
+  transition: 0.5s;
+}
+.card-categoria-genero:hover {
+  transform: scale(1.03);
 }
 
 .titulo-efeito {
